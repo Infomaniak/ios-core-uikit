@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Infomaniak/ios-core-ui",
       "state" : {
-        "branch" : "chore/extract-CoreUIKit",
-        "revision" : "d424a4c0ea274cea2c4576f1ebbb424e1d2c101d"
+        "revision" : "359c413cd80e8493ae4bd33f7943449cc08e5b4f",
+        "version" : "25.0.0"
       }
     },
     {
@@ -127,30 +127,12 @@
       }
     },
     {
-      "identity" : "swiftbackports",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/shaps80/SwiftBackports",
-      "state" : {
-        "revision" : "ddca6a237c1ba2291d5a3cc47ec8480ce6e9f805",
-        "version" : "1.0.3"
-      }
-    },
-    {
       "identity" : "swiftui-introspect",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/siteline/SwiftUI-Introspect",
       "state" : {
         "revision" : "aead9358a55f635d62d885aeb9105752c0213aec",
         "version" : "27.0.0-beta.1"
-      }
-    },
-    {
-      "identity" : "swiftuibackports",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/shaps80/SwiftUIBackports",
-      "state" : {
-        "revision" : "556d42f391b74059a354b81b8c8e19cc7cb576f4",
-        "version" : "1.15.1"
       }
     }
   ],
