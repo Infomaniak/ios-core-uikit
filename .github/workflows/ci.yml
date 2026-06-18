@@ -1,0 +1,22 @@
+name: CI workflow
+
+on:
+  pull_request:
+    branches: [ main ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build_and_test_iOS:
+    name: Build and Test project on iOS
+    runs-on: [ self-hosted, iOS ]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Build
+        run: xcodebuild -scheme InfomaniakCoreUIKit build -sdk iphonesimulator -destination "generic/platform=iOS Simulator"
+      - name: Test
+        run: xcodebuild -scheme InfomaniakCoreUIKit build -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 17,OS=latest"
