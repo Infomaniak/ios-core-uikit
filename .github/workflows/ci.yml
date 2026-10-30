@@ -19,4 +19,4 @@ jobs:
       - name: Build
         run: xcodebuild -scheme InfomaniakCoreUIKit build -sdk iphonesimulator -destination "generic/platform=iOS Simulator"
       - name: Test
-        run: xcodebuild -scheme InfomaniakCoreUIKit build -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 17,OS=latest"
+        run: xcodebuild -scheme InfomaniakCoreUIKit build -sdk iphonesimulator -destination "platform=iOS Simulator,name=${{ vars.LATEST_IPHONE_SIMULATOR }},OS=latest"
