@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Alamofire/Alamofire",
       "state" : {
-        "revision" : "7595cbcf59809f9977c5f6378500de2ad73b7ddb",
-        "version" : "5.12.0"
+        "revision" : "bda9ed57d72988a3a2ada33d824583541f86eac6",
+        "version" : "5.12.2"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Infomaniak/ios-core",
       "state" : {
-        "revision" : "a2ccfeadb409fb6664213dc534f27ea5857ede72",
-        "version" : "21.0.0"
+        "revision" : "211cbcb3e8aad90fa6ae7bc92b1b9d58d6cb9f8c",
+        "version" : "22.0.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Infomaniak/ios-core-ui",
       "state" : {
-        "revision" : "66fa8f505bd911eef59a1c8454248a9f59c4a9af",
-        "version" : "29.0.0"
+        "revision" : "608c8ce38889be456904c84c9e118dad64498928",
+        "version" : "30.0.0"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Infomaniak/ios-login",
       "state" : {
-        "revision" : "b53d08cd0830cfed227ce1b79dbaccd29827b81d",
-        "version" : "7.8.1"
+        "revision" : "8296f4575d7568bb3c30c8acb4672b45a16bf481",
+        "version" : "7.9.0"
       }
     },
     {
@@ -95,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-swift",
       "state" : {
-        "revision" : "ca03df491ec5e4bb8af0bca1e9957d08c10ec2da",
-        "version" : "20.0.5"
+        "revision" : "a40ced79265b644a896e393b0f3a37e7916e7de3",
+        "version" : "20.0.6"
       }
     },
     {
@@ -131,8 +131,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/siteline/SwiftUI-Introspect",
       "state" : {
-        "revision" : "aead9358a55f635d62d885aeb9105752c0213aec",
-        "version" : "27.0.0-beta.1"
+        "revision" : "7f76fe19415a60ce28493c5ec67b8da629f27a44",
+        "version" : "27.1.0"
       }
     }
   ],
