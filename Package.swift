@@ -20,7 +20,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Infomaniak/ios-core-ui", .upToNextMajor(from: "29.0.0")),
+        .package(url: "https://github.com/Infomaniak/ios-core-ui", .upToNextMajor(from: "30.0.0")),
         .package(url: "https://github.com/Infomaniak/SnackBar.swift", .upToNextMajor(from: "1.2.1"))
     ],
     targets: [
